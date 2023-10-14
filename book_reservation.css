@@ -1,0 +1,60 @@
+body{
+  background-color: #f0f0f0;
+    }
+form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+     }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Style the label and input elements */
+
+  label {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  input[type=text], input[type=date], input[type=email] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect to the submit button */
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style error messages */
+  .error {
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  

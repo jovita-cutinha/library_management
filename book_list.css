@@ -1,0 +1,42 @@
+
+/* Style for the table */
+body{
+    background-color: #f0f0f0;
+      }
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color : black;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for the add book button */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #3e8e41;
+}
